@@ -1,0 +1,136 @@
+/* #2cacf5 - Blue */
+/* #4e8781 - Green */
+/* Ba */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: linear-gradient(to bottom, #2cacf5, #274441);
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.container {
+  max-width: 34rem;
+  height: calc(100vh - 3rem);
+  margin: 1rem;
+  margin: auto 0;
+  border-radius: 1rem;
+
+  position: relative;
+}
+
+.susLogo {
+  position: absolute;
+  top: 10px;
+}
+
+.susLogoImg {
+  height: 4rem;
+  transform: rotate(-45deg);
+  /* position: absolute; */
+}
+
+.heading {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 2.8rem;
+  margin-bottom: 1.4rem;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.579);
+}
+
+.intro {
+  align-items: flex-start;
+  display: flex;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+
+.past-experience {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.veeruImg {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 1.5rem;
+}
+.about {
+  display: flex;
+  height: 14rem;
+  flex-direction: column;
+  justify-items: space-between;
+  justify-content: space-between;
+}
+.name {
+  font-size: 2.4rem;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.614);
+}
+.program {
+  font-size: 1.6rem;
+}
+.email {
+  font-size: 1.2rem;
+}
+.promises {
+  font-size: 1.4rem;
+  padding: 3rem;
+  line-height: 1.2;
+}
+.promises ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.instagram-link-container {
+  display: flex;
+  /* display: none; */
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.8rem;
+  gap: 0.2rem;
+}
+.insta-logo {
+  width: 4rem;
+}
+.insta-link {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: white;
+}
+.insta-link:active {
+  color: black;
+}
+.vote {
+  /* position: absolute; */
+  /* top: 0; */
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  width: 100%;
+  background-color: #c1d164;
+}
+.vote:active {
+  background-color: #747d3c;
+}
+.vote-link {
+  display: flex;
+  padding: 1rem;
+  color: black;
+  /* color: white; */
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
